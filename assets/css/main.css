@@ -1,0 +1,11 @@
+.container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+.property-layout { display: grid; grid-template-columns: 280px 1fr; gap: 30px; margin-top: 30px; }
+.property-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.property-card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.property-card__link { text-decoration: none; color: inherit; display: block; }
+.property-card__image img { width: 100%; height: 180px; object-fit: cover; }
+.property-card__body { padding: 15px; }
+.property-card__title { margin: 0 0 8px 0; font-size: 1.1rem; }
+.property-card__address { font-size: 0.85rem; color: #6c757d; margin: 0 0 10px 0; }
+.property-card__meta { display: flex; justify-content: space-between; font-weight: bold; }
+.property-card__price { color: #2b8a3e; }
